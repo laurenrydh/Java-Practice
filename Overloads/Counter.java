@@ -1,4 +1,4 @@
-package Counter;
+package Overloads;
 
 public class Counter {
     private int counter;
