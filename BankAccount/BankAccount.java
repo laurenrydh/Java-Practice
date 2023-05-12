@@ -32,7 +32,7 @@ public class BankAccount {
                 this.accountNumber = scanner.nextInt();
                 scanner.nextLine();
                 BankAccount account = null;
-                for (int i = 0; i < accounts.size(); i++) {2
+                for (int i = 0; i < accounts.size(); i++) {
                     if (accounts.get(i).accountNumber == this.accountNumber){
                         account = accounts.get(i);
                     }
